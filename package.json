@@ -1,24 +1,24 @@
 {
-  "name": "git-test",
+  "name": "nucampsite",
   "version": "1.0.0",
-  "description": "git and NPM",
+  "description": "This is a website for the fictional campsites review site NuCamp.",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"npm install --save-dev node-sass@4.12.0
     "start": "npm run lite",
-    "lite": "lite-server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sayed24/git-test.git"
-  },
-  "author": "",
+  "author": "Sayed",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sayed24/git-test/issues"
-  },
-  "homepage": "https://github.com/Sayed24/git-test#readme",
   "devDependencies": {
     "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
   }
 }
