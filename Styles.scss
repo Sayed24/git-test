@@ -1,0 +1,67 @@
+
+$color-primary: rgb(222, 235, 43);
+$color-secondary: #d8787d;
+$color-pale: rgb(69, 174, 245);
+$color-mid: rgb(69, 116, 179);
+$color-dark: #08f12f;
+$color-transparent-black: rgba(0, 0, 0, 0.5);
+
+body {
+    font-family: "Open Sans",  "sans-serif";
+}
+
+h1, h2, h3 {
+    font-family: "lobster", "cursive";
+}
+
+h2 {
+    color: $color-primary;
+}
+
+header {
+     h2 {
+    color: $color-pale;
+     }
+}
+.site-footer {
+    background-image: linear-gradient: $color-transparent-black;
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient $color-transparent-black;
+    color: rgb(99, 179, 199);
+
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: #2d739b;
+}
+
+.tab-content {
+    border: 1px solid rgb(245, 7, 7);
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.carousel {
+    border: solid #3b39bb;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
