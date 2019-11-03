@@ -1,57 +1,48 @@
 body {
-    font-family: "Open Sans",  "sans-serif";
-}
+  font-family: "Open Sans", sans-serif; }
 
 h1, h2, h3 {
-    font-family: "lobster", "cursive";
-}
+  font-family: "Lobster", cursive; }
 
 h2 {
-    color: #c59d30;
-}
+  color: #3046C5; }
 
 header h2 {
-    color: #c8fff8;
-}
+  color: #CEC8FF; }
+
 .site-footer {
-    background-image: linear-gradient(#a3cbdd, rgb(16, 173, 173));
-    padding: 20px 0;
-}
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0; }
 
 .jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, #9eb1e4, #0459d8, #86cf86);
-    color: rgb(252, 235, 162);
-
-}
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  color: #fff; }
 
 .row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
-}
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
 
 .navbar {
-    background-color: #2d739b;
-}
-
-.tab-content {
-    border: 1px solid rgb(245, 7, 7);
-    border-top: none;
-    padding: 10px;
-}
+  background-color: #901CAD; }
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.3);
-}
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-    border: solid #9b86f8;
-}
+  border: solid #5637dd; }
 
 #carouselButton {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white; }
